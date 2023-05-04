@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="UART_to_PC_with_MicroBlaze_app_system" platform="C:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze/export/UART_to_PC_with_MicroBlaze/UART_to_PC_with_MicroBlaze.xpfm" platformUID="xilinx:arty-s7-50::0.0(custom)" sysConfig="UART_to_PC_with_MicroBlaze" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.56965876">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="UART_to_PC_with_MicroBlaze_app" domainName="standalone_domain" domainPrettyName="standalone_domain" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.486864179">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="UART_to_PC_with_MicroBlaze_app" domainName="standalone_domain" domainPrettyName="standalone_domain" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

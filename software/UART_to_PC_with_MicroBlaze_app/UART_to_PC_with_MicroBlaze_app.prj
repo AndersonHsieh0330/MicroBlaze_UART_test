@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="UART_to_PC_with_MicroBlaze_app" location="C:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze_app" platform="C:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze/export/UART_to_PC_with_MicroBlaze/UART_to_PC_with_MicroBlaze.xpfm" platformUID="xilinx:arty-s7-50::0.0(custom)" systemProject="UART_to_PC_with_MicroBlaze_app_system" sysConfig="UART_to_PC_with_MicroBlaze" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="f9c59c7a98c1cc552a71e67e4e0c472b">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.762204034">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.170423967" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

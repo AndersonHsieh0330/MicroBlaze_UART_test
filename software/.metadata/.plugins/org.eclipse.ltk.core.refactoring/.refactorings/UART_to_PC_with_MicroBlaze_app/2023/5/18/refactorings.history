@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UART_to_PC_with_MicroBlaze_app/src/helloworld.c&apos; to &apos;start_of_program.c&apos;" description="Rename resource &apos;helloworld.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/helloworld.c" name="start_of_program.c" stamp="1683159794044" updateReferences="true"/>
+</session>

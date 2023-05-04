@@ -1,0 +1,33 @@
+20:23:29 **** Build of configuration Debug for project UART_to_PC_with_MicroBlaze_app ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze/export/UART_to_PC_with_MicroBlaze/sw/UART_to_PC_with_MicroBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/start_of_program.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/start_of_program.o" -IC:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze/export/UART_to_PC_with_MicroBlaze/sw/UART_to_PC_with_MicroBlaze/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/start_of_program.d" -MT"src/start_of_program.o" -o "src/start_of_program.o" "../src/start_of_program.c"
+../src/start_of_program.c: In function 'main':
+../src/start_of_program.c:80:7: warning: variable 'TxStatus' set but not used [-Wunused-but-set-variable]
+   80 |   int TxStatus;
+      |       ^~~~~~~~
+../src/start_of_program.c:79:13: warning: variable 'UartLiteStatus' set but not used [-Wunused-but-set-variable]
+   79 |         int UartLiteStatus;
+      |             ^~~~~~~~~~~~~~
+'Finished building: ../src/start_of_program.c'
+' '
+'Building target: UART_to_PC_with_MicroBlaze_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/andy1/fpgaProjects/UART_to_PC/software/UART_to_PC_with_MicroBlaze/export/UART_to_PC_with_MicroBlaze/sw/UART_to_PC_with_MicroBlaze/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "UART_to_PC_with_MicroBlaze_app.elf"  ./src/platform.o ./src/start_of_program.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: UART_to_PC_with_MicroBlaze_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size UART_to_PC_with_MicroBlaze_app.elf  |tee "UART_to_PC_with_MicroBlaze_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8648	    336	   3232	  12216	   2fb8	UART_to_PC_with_MicroBlaze_app.elf
+'Finished building: UART_to_PC_with_MicroBlaze_app.elf.size'
+' '
+
+20:23:32 Build Finished (took 2s.840ms)
+
